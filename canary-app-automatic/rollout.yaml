@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webserver-simple
-        image: containous/whoami:latest
+        image: docker.io/containous/whoami:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
